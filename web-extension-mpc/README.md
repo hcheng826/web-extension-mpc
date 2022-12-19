@@ -1,6 +1,6 @@
 # WASM Extension Template
 
-This template allows you to generate a "Hello World" web extension running a **Rust program compiled to WASM**.
+This template allows you to generate a "Hello World" web extension running a **Rust program compiled to WASM**.  
 The program will be executed as a **content script**, without the need of being injected into the page.
 
 Supports both manifest v2 and v3.
@@ -19,7 +19,7 @@ cargo install wasm-pack
 You can use `cargo-generate` to generate a new crate (modify the name at the end of the command):
 
 ```sh
-cargo generate --git https://github.com/hcheng826/web-extension-mpc --name web-extension-mpc
+cargo generate --git https://github.com/Mubelotix/wasm-extension-template --name amazing-extension
 ```
 
 Your crate is now generated and ready to be compiled.

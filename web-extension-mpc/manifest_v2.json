@@ -1,0 +1,18 @@
+{
+    "name" : "web-extension-mpc",
+    "version" : "1.0",
+    "description" : "web-extension-mpc",
+    "permissions": [],
+    "content_scripts": [
+        {
+            "matches": ["*://*.example.com/*"],
+            "js": [
+                "web_extension_mpc.js", "run_wasm.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "web_extension_mpc_bg.wasm"
+    ],
+    "manifest_version": 2
+}
